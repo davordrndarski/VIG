@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="497" height="300" viewBox="0 0 497 300">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_11779" data-name="Rectangle 11779" width="188" height="300" fill="#fff"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientTransform="matrix(-1, 0, 0, 1, 1, 0)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e80fe9" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#d447ff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_11777" data-name="Rectangle 11777" width="188" height="300" transform="translate(294 6523)" fill="#fff"/>
+    </clipPath>
+    <radialGradient id="radial-gradient-2" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#radial-gradient"/>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d447ff" stop-opacity="0"/>
+      <stop offset="0.226" stop-color="#d447ff"/>
+      <stop offset="0.432" stop-color="#f5f5ff"/>
+      <stop offset="0.516" stop-color="#f5f5ff"/>
+      <stop offset="0.736" stop-color="#e80fe9"/>
+      <stop offset="1" stop-color="#e80fe9" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="footer_bg" transform="translate(-471 -6523)">
+    <g id="Mask_Group_5989" data-name="Mask Group 5989" transform="translate(780 6523)" clip-path="url(#clip-path)">
+      <ellipse id="Ellipse_114" data-name="Ellipse 114" cx="125" cy="207.5" rx="125" ry="207.5" transform="translate(102)" fill="url(#radial-gradient)"/>
+    </g>
+    <g id="Mask_Group_5988" data-name="Mask Group 5988" transform="translate(177)" clip-path="url(#clip-path-2)">
+      <ellipse id="Ellipse_113" data-name="Ellipse 113" cx="125" cy="207.5" rx="125" ry="207.5" transform="translate(130 6523)" fill="url(#radial-gradient-2)"/>
+    </g>
+    <rect id="Rectangle_11780" data-name="Rectangle 11780" width="2" height="300" transform="translate(471 6523)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_11778" data-name="Rectangle 11778" width="2" height="300" transform="translate(966 6523)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
