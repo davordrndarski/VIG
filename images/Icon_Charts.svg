@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56.661" height="71.556" viewBox="0 0 56.661 71.556">
+  <defs>
+    <filter id="Path_29929" x="0" y="0" width="29.852" height="64.109" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.42"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_29930" x="26.809" y="8.937" width="29.852" height="62.62" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.42"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Icon_Charts" transform="translate(-520.98 -3776.498)">
+    <g transform="matrix(1, 0, 0, 1, 520.98, 3776.5)" filter="url(#Path_29929)">
+      <path id="Path_29929-2" data-name="Path 29929" d="M14.915,0H11.937V8.937H3V44.683h8.937V55.109h2.979V44.683h8.937V8.937H14.915Zm5.958,11.915V41.7H5.979V11.915Z" transform="translate(-0.5 1.5)" fill="#d447ff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 520.98, 3776.5)" filter="url(#Path_29930)">
+      <path id="Path_29930-2" data-name="Path 29930" d="M23.915,17.894V3H20.937V17.894H12V41.725h8.937V56.62h2.979V41.725h8.937V17.894Z" transform="translate(17.31 7.44)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

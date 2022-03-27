@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80.633" height="88.908" viewBox="0 0 80.633 88.908">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d4af37"/>
+      <stop offset="1" stop-color="#f3e1a4"/>
+    </linearGradient>
+    <filter id="Icon_feather-hexagon" x="0" y="0" width="80.633" height="88.908" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.78"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_feather-hexagon)">
+    <path id="Icon_feather-hexagon-2" data-name="Icon feather-hexagon" d="M79.133,61.042V27.872A8.292,8.292,0,0,0,74.987,20.7L45.963,4.114a8.293,8.293,0,0,0-8.293,0L8.646,20.7A8.293,8.293,0,0,0,4.5,27.872v33.17a8.293,8.293,0,0,0,4.146,7.173L37.67,84.8a8.292,8.292,0,0,0,8.293,0L74.987,68.215a8.292,8.292,0,0,0,4.146-7.173Z" transform="translate(-3.5 -2)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52.111" height="63.799" viewBox="0 0 52.111 63.799">
+  <defs>
+    <filter id="Shape" x="0" y="0" width="52.111" height="63.799" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.42"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Icon_Streaming" transform="translate(-1104.997 -3990.768)">
+    <g transform="matrix(1, 0, 0, 1, 1105, 3990.77)" filter="url(#Shape)">
+      <path id="Shape-2" data-name="Shape" d="M21.484,54.8h0A20.677,20.677,0,0,1,2.622,43.594c-4.738-9.235-2.177-17.633.807-23.052A37.592,37.592,0,0,1,11.116,10.9,30.02,30.02,0,0,0,13,20.863C22.876,16.885,21.83.168,21.818,0c7.1,2.943,13.44,9.167,17.39,17.073,3.963,7.933,4.964,16.464,2.746,23.4a20,20,0,0,1-8.1,10.684A22.692,22.692,0,0,1,21.484,54.8Zm.33-34.558h0c-.107.081-10.7,8.175-10.7,17.747a12.807,12.807,0,0,0,5.349,10.277,8.518,8.518,0,0,0,10.484,0A13.464,13.464,0,0,0,32.2,37.988c0-9.549-10.282-17.666-10.386-17.747Z" transform="translate(2.5 1.5)" fill="#fff"/>
+    </g>
+    <path id="Path_29928" data-name="Path 29928" d="M297.885,491.153S288.95,501.29,292.1,506.7s10.357,4.389,12.275,0S297.885,491.153,297.885,491.153Z" transform="translate(831.168 3527.527)" fill="#d447ff"/>
+  </g>
+</svg>
