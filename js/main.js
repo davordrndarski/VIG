@@ -112,6 +112,18 @@ $sliders.hover(
 
 
 
+// Nav btn
+
+$('.toggle-menu').click (function(){
+  $(this).toggleClass('active');
+  $('.main-nav').toggleClass('open');
+  $('.header_wrap .nav').slideToggle();
+});
+
+
+
+
+
 
 
 
