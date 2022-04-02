@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="36" height="36">
+	<title>Icon ionic-ios-add-circle</title>
+	<defs>
+		<image  width="36" height="36" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAMAAADW3miqAAAAAXNSR0IB2cksfwAAAFFQTFRFAAAAh4eXioqYioqYiYmYioqYiYmYioqai4uZioqYioqYioqYiYmZj4+fioqaioqXiYmZiYmZioqXioqXiYmXi4uXioqYiYmYiYmYiYmXi4uY4zVVmgAAABt0Uk5TACBvv9//jz9/z++fXxAwYHBQwOCAQJDQ8KBPqYazvwAAAPdJREFUeJyNk9EagiAMhWe4igwJQ4Pe/0EDzXADw3MF+37gwA4AGzUnIVpEIc4X2NFVYtKtawrIvUWms2KIEhyJu/WE6WWBCdJb5lZmEB/prJ19oswKlfxwX5qWhyeZigWid7eg6KIxMjar0YKMkKxAGFw1WIMmgEcVCucNVQgPQX16ADvOCq1fBvqV1q2jIQuPyaGWpwe6BB3wdAhSMFUht7G3C/ngz9WgmDtfgVy8Nuuw5pCd34Nal++OzN3yfoq5yh3NP+oP438N0LvMa9MmnrwfQxpqir48UPW8h+FeBjKN9FM6m2Vn2W1aw+i8KSNfcDRzhIk+76IZHvy43xYAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

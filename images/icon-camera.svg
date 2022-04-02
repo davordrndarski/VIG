@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 27" width="36" height="27">
+	<title>Icon ionic-ios-camera</title>
+	<defs>
+		<image  width="35" height="27" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAbCAMAAADBLsarAAAAAXNSR0IB2cksfwAAAFFQTFRFAAAA9fX/9PT/9fX/9fX/////9fX/9PT/9vb/9PT/9fX/9PT/9fX/9fX/9PT/9/f/9fX/9PT/9fX/9fX/9/f/9fX/9fX/9PT/9PT/9/f/9vb/lxMtuQAAABt0Uk5TAH/v/58QzzBwv9+PULBgQKDw4NAggK9fwD9vS+nVewAAAONJREFUeJyFk41yhCAMhJcExN6h+AM92/d/0ErPq0Fjb2ecweSD2YQACBniTdZBl+VdjQ5J5AT5NdQekBrypmQ/Gj7qdjdFAQin3FEtbm8ZQv3f9R6x78pyCOMWrJgprv5+v5k5ISvM7BCK9SbAzfz5oDMzJgzb0iKNe0IwGb2oJatMwr6X4DRmQhTeImaFWap2tlhURp4TVIaQBJPEBQjP/q/0cqjXPPMA9ypsdIKv+hyQniaWVHmTDPl1mnLO68R4umCYjTsO/5lhsubr21IdFP2/lPR/oQ5ueYNMvjyM+K+AHzGdD3+mYGW9AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

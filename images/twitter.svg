@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38" width="38" height="38">
+	<title>Group 13006</title>
+	<defs>
+		<image  width="34" height="28" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAcCAMAAAAz6Z0tAAAAAXNSR0IB2cksfwAAAFFQTFRFAAAAAKz0AKzzAKzzAK/3AKvzAK//AK/0AK3yAK3zAK3zAK3yAKzzAKzzAK3zAK3yAKzyAKzyAKz0AK3zAKzzAK3zAK30AK3yAKzyAK7zAK3zzGHHHgAAABt0Uk5TAF+vvyBAEDDf/3/vz5DQn6BQb8CwgGDg8D+PXv1tsQAAAONJREFUeJyFkgkOgyAURHFh+YpVC6L2/gctCCofsJ3EROExMwKElFTVTVNX/r21D2UJwAUcEpy0Xe8QITHDewjqJcDgRgBkGxHsIpxezOZRh9MbGWLC+gweARivMAFIkzMOfBfScoKQ1/lZV+xacVbxy+ZoSI5vhKiQPsGjPEJFJx4R7Tf42QNgIbhuQSavm4r/rbuW9zzWFB2u+p3znKRuk3YrI9H5E1MkNLpp85oTW3phjU4pTlLNPfYwyTyrJLZYIw++790nmbe/i3qYvKmiSYhtikroDDiq0EUrtSo1Lfn8F6MFGDJPi4tQAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="1" y="5"/>
+</svg>
