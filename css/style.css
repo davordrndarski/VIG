@@ -73,6 +73,8 @@ header {
   z-index: 15;
 }
 
+
+
 .mob-btn,
 .mob_link {
   display: none;
@@ -838,6 +840,17 @@ header {
   height: 44px;
 }
 
+.down {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+.down img {
+  width: 40%;
+}
 
 
 /* Flex grid */
@@ -1065,6 +1078,10 @@ footer .footer_wrap .f_sign_in {
 .right_glow {
   position: absolute;
   pointer-events: none;
+}
+
+.mob_glow-1 {
+	display: none;
 }
 
 .left_glow {
@@ -1813,6 +1830,13 @@ footer .footer_wrap .f_sign_in {
 
   .header_wrap {
     width: 100%;
+    padding: 0;
+  }
+
+  .mob_glow {
+    display: block;
+    margin: auto;
+    margin-left: 60px;
   }
 
   .header_wrap .cr_account {
@@ -2047,6 +2071,7 @@ footer .footer_wrap .f_sign_in {
 
   .vig_how_to_play .col_l, .vig_how_to_play .col_r {
     width: 100%;
+    text-align: center !important;
   }
 
   .vig_how_to_play .v_heading {
@@ -2112,14 +2137,20 @@ footer .footer_wrap .f_sign_in {
 
   .htp_one .col_l h2,
   .htp_two .col_l h2, 
-  .htp_four .col_l h2 {
+  .htp_four .col_l h2,
+  .htp_three .col_l h2 ,
+  .vig_how_to_play .v_heading h1 {
     margin-left: 0;
     font-size: 24px;
     width: 100%;
   }
 
+  .vig_how_to_play .v_heading h1 {
+    line-height: 32px;
+  }
+
   .custom_anime1 {
-    width: 85%;
+    width: 60%;
     margin: 5% 0;
   }
 
@@ -2134,12 +2165,21 @@ footer .footer_wrap .f_sign_in {
     line-height: 21px;
   }
 
-  .row-reverse .col_r {
+  .row-reverse .col_r,
+  .htp_three .col_r {
     flex-wrap: wrap;
   }
 
-  .htp_two .row-reverse {
+  .htp_two .row-reverse,
+  .htp_three .flex_wrap,
+  .htp_four .row-reverse {
     flex-direction: column-reverse;
+  }
+
+  .htp_three .col_r .custom_anime3 {
+    width: 40%;
+    margin: auto;
+    margin: 5% auto;
   }
 
   .htp_two .paralax_efect {
@@ -2169,12 +2209,70 @@ footer .footer_wrap .f_sign_in {
   }
 
   .htp_two .col_l h3,
-  .htp_two .col_l img {
+  .htp_two .col_l img,
+  .htp_three .col_l h3,
+  .htp_three .col_l img,
+  .htp_four .col_l h3,
+  .htp_four .col_l img {
     display: none;
   }
 
   .htp_two .col_l {
     text-align: center !important;
+  }
+
+  .htp_one,
+  .htp_two,
+  .htp_three,
+  .htp_four {
+    padding-bottom: 100px;
+  }
+
+  .down {
+    bottom: 0;
+  }
+
+  .down img {
+    width: 30%;
+  }
+
+  .win_man {
+    width: 55% !important;
+    margin-left: 15%;
+  }
+
+  .htp_four .dolars {
+    left: 30%;
+    width: 60%;
+    top: 15%;
+  }
+
+
+  .htp_four .f_managent {
+    width: 50%;
+    left: 0;
+  }
+
+  .htp_four .paralax_efect {
+    margin: 5% 0;
+  }
+
+
+  .htp_five .v_heading {
+    margin-top: 0;
+  }
+
+
+  .article-title {
+    font-size: 18px;
+  }
+
+  #accordion {
+    margin-top: 5%;
+  }
+
+  .accordion-content p {
+    font-size: 15px;
   }
 
   /* Footer */
@@ -2221,6 +2319,22 @@ footer .footer_wrap .f_sign_in {
 
 
 @media only screen and (max-width: 600px) {
+
+  .fp-viewing-0 header .header_wrap {
+	background: transparent;
+  }
+
+  .left_glow,
+  .right_glow {
+	display: none;
+  }
+
+  .mob_glow-1 {
+  	display: block;
+    width: 70%;
+    position: fixed;
+  }
+
   .full_height {
     height: auto;
   }
@@ -2540,6 +2654,105 @@ footer .footer_wrap .f_sign_in {
   .zoom_img {
     z-index: 5;
   }
+
+  /* How to play */
+
+  .vig_how_to_play .v_heading h1 {
+    line-height: 50px;
+    font-size: 48px;
+  }
+
+  .vig_how_to_play .v_heading {
+    margin-top: 45%;
+  }
+
+  .vig_how_to_play .flex_wrap {
+    margin-left: 0;
+  }
+
+  .vig_how_to_play .col_l, .vig_how_to_play .col_r {
+    padding-left: 0;
+  }
+
+  .mob_glow {
+    width: 100% !important;
+  }
+
+  .custom_anime1 {
+    width: 100%;
+    margin: 10% 0;
+  }
+
+  .vertical-scrolling {
+    padding: 0 20px 0;
+  }
+
+  .vig_how_to_play .col_l .v_btn {
+  	font-size: 16px;
+  }
+  .htp_two {
+    padding-top: 0;
+  }
+  .htp_two .paralax_efect {
+    width: 95%;
+    margin: 20% auto;
+  }
+
+  .paralax_wrap .add_img {
+  	width: 108px;
+  	top: -13vw;
+  }
+
+  .paralax_wrap .add_img .img_icon {
+	  width: 28px;
+	  height: auto;
+	  left: -2vw;
+	  top: 16vw;
+	}
+
+  .paralax_wrap .add_social {
+    bottom: 20%;
+  }
+
+  .add_social img {
+  	width: 85%;
+  }
+
+  .paralax_wrap .add_social li {
+    margin-right: 20px;
+  }
+
+  .htp_three .col_r .custom_anime3 {
+    width: 55%;
+    margin: 10% auto;
+  }
+
+  .htp_four .f_managent {
+    width: 60%;
+    bottom: -5%;
+  }
+
+  .win_man {
+    width: 60% !important;
+    margin-left: 30%;
+ }
+
+ .htp_four .paralax_efect {
+    margin: 9% 0;
+ }
+
+ .htp_four .dolars {
+    left: 40%;
+  }
+
+ .htp_five .v_heading h1 {
+ 	font-size: 24px;
+ 	line-height: 32px;
+ }
+
+ .accordion-container .content-entry i:before {
+ 	font-size: 16px;
+ }
 
   /* Footer */
 
