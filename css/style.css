@@ -797,15 +797,20 @@ header {
   margin-bottom: 200px;
 }
 
-.vig_homepage .zoom_img {
+.vig_homepage .zoom_img,
+.v_section_seven .zoom_img {
   position: absolute;
+  width: 85%;
+  z-index: 5;
 }
 
-.vig_homepage .pl_now_img {
+.vig_homepage .pl_now_img,
+.v_section_seven .pl_now_img  {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  width: 100%;
 }
 
 .pl_now {
@@ -1080,6 +1085,10 @@ footer .footer_wrap .f_sign_in {
   pointer-events: none;
 }
 
+.custom_anime1 {
+  width: 100%;
+}
+
 .mob_glow-1 {
 	display: none;
 }
@@ -1096,7 +1105,8 @@ footer .footer_wrap .f_sign_in {
 .fp-viewing-1 header .header_wrap,
 .fp-viewing-2 header .header_wrap,
 .fp-viewing-3 header .header_wrap,
-.fp-viewing-4 header .header_wrap {
+.fp-viewing-4 header .header_wrap,
+.fp-viewing-5 header .header_wrap {
   opacity: 0;
 
 }   
@@ -1123,7 +1133,8 @@ footer .footer_wrap .f_sign_in {
 }
 
 .vig_how_to_play .v_heading {
-  margin-bottom: 8%;
+  margin-bottom: 4%;
+  margin-top: 8%;
 }
 
 .vig_how_to_play .v_heading h1 {
@@ -1357,6 +1368,9 @@ footer .footer_wrap .f_sign_in {
   font-style: normal;
 }
 
+.earn-section {
+  padding: 0;
+}
 
 /* Custonm animations */
 
@@ -1407,7 +1421,9 @@ footer .footer_wrap .f_sign_in {
 .fp-viewing-2 .custom_anime3 {
   transform: translateY(0%) !important;
 }
-
+.custom_anime3 {
+  width: 60%;
+}
 
 .fp-viewing-3 .custom_anime3 {
   transform: translateY(-30%) !important;
@@ -1445,6 +1461,9 @@ footer .footer_wrap .f_sign_in {
   .v_section_one .col_r video {
     width: 130%;
     margin-left: -60%;
+  }
+  .custom_anime3 {
+    width: 70%;
   }
   footer {
     padding: 5% 2% 0;
@@ -2275,6 +2294,19 @@ footer .footer_wrap .f_sign_in {
     font-size: 15px;
   }
 
+  .earn-section {
+    height: auto !important;
+  }
+
+  .earn-section .fp-tableCell {
+    height: auto !important;
+  }
+
+  .earn-section .v_section_seven {
+    height: auto !important;
+    padding: 100px 0 200px;
+  }
+
   /* Footer */
   footer .footer_wrap .footer_col .v_btn {
     width: 100%
@@ -2691,6 +2723,14 @@ footer .footer_wrap .f_sign_in {
 
   .vertical-scrolling {
     padding: 0 20px 0;
+  }
+
+  .earn-section {
+    padding: 0;
+  }
+
+  .earn-section .v_section_seven {
+    padding: 100px 0 100px;
   }
 
   .vig_how_to_play .col_l .v_btn {
