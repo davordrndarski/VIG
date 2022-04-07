@@ -2332,7 +2332,7 @@ footer .footer_wrap .f_sign_in {
 
   .mob_glow-1 {
   	display: block;
-    width: 70%;
+    width: 45%;
     position: fixed;
     z-index: 5;
   }
@@ -2787,8 +2787,19 @@ footer .footer_wrap .f_sign_in {
     display: none;
   }
 
+  footer .f_line {
+    z-index: 9;
+  }
+
+  footer .footer_wrap .footer_col .f_social_wrap p {
+    z-index: 10;
+    width: 35%;
+  }
+
   footer .footer_wrap .footer_col:first-child {
     flex-wrap: wrap;
+    position: relative;
+    z-index: 10;
   }
 
   footer .footer_wrap .footer_col:first-child .copy_mob {
@@ -2816,6 +2827,10 @@ footer .footer_wrap .f_sign_in {
 
   footer .footer_wrap .footer_col:nth-child(2) {
     padding-left: 0;
+  }
+
+  footer .footer_wrap .footer_col form {
+    z-index: 5;
   }
 
 
