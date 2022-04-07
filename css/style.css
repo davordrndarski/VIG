@@ -2320,6 +2320,7 @@ footer .footer_wrap .f_sign_in {
 
 @media only screen and (max-width: 600px) {
 
+
   .fp-viewing-0 header .header_wrap {
 	background: transparent;
   }
@@ -2333,6 +2334,11 @@ footer .footer_wrap .f_sign_in {
   	display: block;
     width: 70%;
     position: fixed;
+    z-index: 5;
+  }
+
+  #fullpage {
+    z-index: 10;
   }
 
   .full_height {
