@@ -422,7 +422,7 @@ header {
     font-family: 'Inter-Light';
     color: #fff;
     font-size: 1.3vw;
-    background: url(../images/Game_Arrow_Base.png);
+    background: url(../images/games_arrow_anim.png);
     padding: 4% 5% 2.5% 5%;
     display: inline-block;
     background-size: contain;
